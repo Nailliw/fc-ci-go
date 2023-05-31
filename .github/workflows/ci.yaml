@@ -11,4 +11,4 @@ jobs:
       - run: go test
       - run: go run math.do
     permissions:
-      contents: read-all|write-all
+      contents: write-all
