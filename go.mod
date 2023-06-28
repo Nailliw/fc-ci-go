@@ -1,3 +1,8 @@
-module test3
+module github.com/devfullcycle/GraphQL
 
-go 1.19
+go 1.16
+
+require (
+	github.com/99designs/gqlgen v0.17.34
+	github.com/vektah/gqlparser/v2 v2.5.4
+)
